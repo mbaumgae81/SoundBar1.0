@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.soundbar.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Button mnemonicParsing="false" onAction="#onSound1ButtonClick" text="Angestartet" />
+   <Button mnemonicParsing="false" onAction="#onSound2ButtonClick" prefHeight="25.0" prefWidth="82.0" text="ja  gut" />
+   <Button mnemonicParsing="false" onAction="#onSound3ButtonClick" prefHeight="25.0" prefWidth="83.0" text="geschischte" />
+   <Button mnemonicParsing="false" onAction="#onSound4ButtonClick" prefHeight="25.0" prefWidth="84.0" text="llup" />
+   <Button mnemonicParsing="false" onAction="#onSound5ButtonClick" text="nasenschnauf" />
+
+    <Label fx:id="welcomeText" />
+    <Button onAction="#onExitButtonClick" text="Exit" />
+</VBox>
